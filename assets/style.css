@@ -73,4 +73,26 @@
 .sec-2 {
     height: 90vh;
     width: 100vw;
+    background-color: #EAEBEC;
+}
+.head {
+    color: #00917C;
+    
+}
+.bg-color {
+    padding: 20px;
+    margin: 15px;
+}
+.box{
+    background-color: white;
+    height: 365px;
+    width: 426px;
+    border: 1px solid white;
+    padding: 50px;
+    margin: 20px;
+}
+.sec-3 {
+    padding-top: 100px;
+    height: 30px;
+    width: 100px;
 }
