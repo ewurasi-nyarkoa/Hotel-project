@@ -24,9 +24,7 @@
 }
 .sol {
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-left: 6px;
     margin-top: 8px;
 
 }
@@ -77,7 +75,7 @@
 }
 .head {
     color: #00917C;
-    
+
 }
 .bg-color {
     padding: 20px;
@@ -95,4 +93,24 @@
     padding-top: 100px;
     height: 30px;
     width: 100px;
+}
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.ds-color {
+    background-color: #00917C;
+}
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-us-image{
+    margin-top: 20rem;
+    margin-left: -35px;
 }
