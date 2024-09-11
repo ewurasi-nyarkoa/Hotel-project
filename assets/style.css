@@ -4,30 +4,38 @@
 .main-body{
     height: 100vh;
     width: 100vw;
-    background-image: url("/assets/images/main\ image.png");
+    background-image: url(./images/image.png);
     background-size: cover;
     background-repeat: no-repeat;
     
 }
-h3 {
-    background-color: #1f1f0b;
-    color: white;
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
 }
+
 .dot {
-    height: 45px;
-    width: 45px;
-    background-color: white;
+    height: 30px;
+    width: 30px;
+    background-color: #00917C;
     border-radius: 50%;
 }
-.fa-solid{
-    color: black;
+.sol {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+
 }
 .body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5px;
+    margin: 31px;
 }
 .text{
     padding-right: 10px;
@@ -44,4 +52,25 @@ h3 {
 }
 .text-size {
     font-size: 300%;
+}
+.mar-gin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    margin-left: 100px;
+    border-width: 5px;
+}
+.btn1 {
+    width: 140px;
+    height: 30px;
+    background-color: #F8F9FA;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 6px;
+    
+}
+.sec-2 {
+    height: 90vh;
+    width: 100vw;
 }
