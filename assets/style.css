@@ -52,13 +52,15 @@
 .text-size {
     font-size: 300%;
 }
+.fixing {
+    background-color: white;
+}
 .mar-gin {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 75%;
     margin-left: 100px;
-    border-width: 5px;
 }
 .btn1 {
     width: 140px;
