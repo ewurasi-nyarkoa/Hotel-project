@@ -134,11 +134,15 @@
     overflow: hidden;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-}.foot {
+}
+.footer-list {
     width: 100vw;
     height: 50vh;
-    display: flex;
     background-color: #EAEBEC;
+}
+
+.foot {
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -156,7 +160,13 @@
     background-color: #00917C;
     border-radius: 50%;
 }
-.save {
-    padding-left: 6px;
-    margin-top: 8px;
+.copy-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 74px;
+}
+.red {
+    color: red;
 }
